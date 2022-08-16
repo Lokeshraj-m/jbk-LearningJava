@@ -1,5 +1,5 @@
 package operations.sub;
-import operations.variable.*;
+import operations.variable.variable;
 public class subtraction {
 	public int sub() {
 		variable var = new variable();

@@ -1,5 +1,5 @@
 package operations.mod;
-import operations.variable.*;
+import operations.variable.variable;
 public class modulus {
 	variable var = new variable();
 	public int mod() {

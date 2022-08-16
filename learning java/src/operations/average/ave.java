@@ -1,5 +1,5 @@
 package operations.average;
-import operations.variable.*;
+import operations.variable.variable;
 public class ave {
 	public double average() {
 		variable var = new variable();

@@ -1,5 +1,5 @@
 package operations.mul;
-import operations.variable.*;
+import operations.variable.variable;
 public class multiplication {
 	variable var = new variable();
 	public double mul() {

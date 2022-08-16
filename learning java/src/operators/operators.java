@@ -1,5 +1,4 @@
 package operators;
-
 public class operators {
 	int add(int a,int b) {
 		return a+b;

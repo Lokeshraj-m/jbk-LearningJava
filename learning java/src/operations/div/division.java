@@ -1,5 +1,5 @@
 package operations.div;
-import operations.variable.*;
+import operations.variable.variable;
 public class division {
 	public double div() {
 		variable var = new variable();

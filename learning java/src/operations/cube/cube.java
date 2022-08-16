@@ -1,5 +1,5 @@
 package operations.cube;
-import operations.variable.*;
+import operations.variable.variable;
 public class cube {
 	public float cu() {
 		variable var = new variable();

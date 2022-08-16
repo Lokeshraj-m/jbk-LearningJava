@@ -1,5 +1,4 @@
 package operations.variable;
-
 public class variable {
 	private int a;
 	private int b;

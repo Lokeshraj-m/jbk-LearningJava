@@ -1,5 +1,5 @@
 package operations.areaOfCircle;
-import operations.variable.*;
+import operations.variable.variable;
 public class circle {
 	public double areaOfCircle() {
 		variable var = new variable();

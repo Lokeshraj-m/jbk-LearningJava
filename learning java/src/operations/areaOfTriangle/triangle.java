@@ -1,5 +1,5 @@
 package operations.areaOfTriangle;
-import operations.variable.*;
+import operations.variable.variable;
 public class triangle {
 	public double areaOfTriangle() {
 		variable var = new variable();
