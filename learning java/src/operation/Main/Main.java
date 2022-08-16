@@ -1,16 +1,16 @@
 package operation.Main;
-import operations.add.*;
-import operations.sub.*;
+import operations.add.addition;
+import operations.sub.subtraction;
 import operations.variable.variable;
-import operations.mul.*;
-import operations.div.*;
-import operations.mod.*;
-import operations.square.*;
-import operations.cube.*;
-import operations.average.*;
-import operations.areaOfCircle.*;
-import operations.areaOfRectangle.*;
-import operations.areaOfTriangle.*;
+import operations.mul.multiplication;
+import operations.div.division;
+import operations.mod.modulus;
+import operations.square.squ;
+import operations.cube.cube;
+import operations.average.ave;
+import operations.areaOfCircle.circle;
+import operations.areaOfRectangle.rectangle;
+import operations.areaOfTriangle.triangle;
 public class Main {
 
 	public static void main(String[] args) {
