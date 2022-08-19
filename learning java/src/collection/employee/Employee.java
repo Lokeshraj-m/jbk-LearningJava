@@ -1,5 +1,5 @@
 package collection.employee;
-class Employee {
+public class Employee {
 	int empid;
 	String empname;
 	String empdep;

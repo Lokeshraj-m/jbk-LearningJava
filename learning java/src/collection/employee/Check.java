@@ -1,7 +1,7 @@
 package collection.employee;
 
 import java.util.ArrayList;
-public class Check {
+class Check {
 	public static void main(String[] args) {
 		Employee e1 = new Employee();
 		e1.setEmpid(1);
@@ -32,9 +32,6 @@ public class Check {
 				System.out.println(d.getEmpname());
 			}
 		}
-		
-		
-		
 	}
 
 }
