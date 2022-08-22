@@ -24,8 +24,9 @@ class Check {
 		for (Student su : al) {
 			System.out.println(su);
 		}
-		Scanner input = new Scanner(System.in);
+		
 		System.out.println("enter  the  name");
+		Scanner input = new Scanner(System.in);
 		String name = input.nextLine();
 		
 		for(Student st :al) {
