@@ -2,8 +2,6 @@ package collection.map;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Scanner;
-
 public class Car {
 	HashMap<String, HashMap<String, ArrayList<String>>> indiaCar() {
 		ArrayList<String> tata = new ArrayList<>();
