@@ -12,14 +12,14 @@ class Check {
 		al.add(new Student(9, "anandh", 8, "cncsncb"));
 		al.add(new Student(50, "thulasi", 3, "ndckkc"));
 		al.add(new Student(3, "bala", 22, "vackjncn"));
-		al.add(new Student(31, "shahil", 45, "akcsdkck"));
-		al.add(new Student(100, "gowtham", 99, "cjscnc"));
+		al.add(new Student(31, "shahil", 45, "akcs dkck"));
+		al.add(new Student(100, "gowtham", 99, "c jscnc"));
 		al.add(new Student(26, "roshini", 68, "Panxl"));
 		al.add(new Student(30, "dhivya", 91, "ckkwn"));
 		al.add(new Student(15, "keerthi", 50, "icwcmwcll"));
 		al.add(new Student(35, "revanth", 50, "icnwkcnc"));
 		Collections.sort(al);
-		Collections.sort(al, new ComparatorAge());
+		//Collections.sort(al, new ComparatorAge());
 		System.out.println(al);
 		for (Student su : al) {
 			System.out.println(su);
@@ -31,13 +31,11 @@ class Check {
 		for(Student st :al) {
 			if (st.getName().equals(name)) {
 				System.out.println("your age = "+st.getAge() +"   "+ "your nickname = " +st.getNickname());
-				
 			}
 		}
 	}
 	public static void main(String[] args) {
 		Check.student();
 	}
-	
 	}
 

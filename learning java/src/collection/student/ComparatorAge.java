@@ -9,5 +9,4 @@ public class ComparatorAge implements Comparator<Student> {
 		// TODO Auto-generated method stub
 		return o1.age - o2.age;
 	}
-
 }

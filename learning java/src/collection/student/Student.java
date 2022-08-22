@@ -5,8 +5,6 @@ public class Student implements Comparable<Student>  {
 	String name;
 	int age;
 	String nickname;
-	
-	
 	public Student(){}
 	
 	public Student(int rollno, String name, int age, String nickname) {
@@ -45,9 +43,11 @@ public class Student implements Comparable<Student>  {
 	public String toString() {
 		return "Student [rollno=" + rollno + ", name=" + name + ", age=" + age + ", nickname=" + nickname + "]";
 	}
+
 	@Override
-	public int compareTo(Student su) {
+	public int compareTo(Student o) {
 		// TODO Auto-generated method stub
-		return rollno - su.rollno;
+		return name.compareToIgnoreCase(o.name);
 	}
+
 }
